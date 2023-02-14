@@ -41,7 +41,7 @@ let elya = {
     console.log("hello my name is " + this.name);
   },
   sayAge: function () {
-    console.log("my age " + this.age);
+    console.log("my age " + this.age); // + this.name + "-" + this.age
   },
 };
 
@@ -60,3 +60,15 @@ elya.greeting();
 elya.name = "eleonora";
 elya.greeting();
 elya.sayAge();
+
+let example = {
+  number: 0,
+  inc: function () {
+    this.number = this.number + 1;
+  },
+};
+
+console.log(example.number);
+example.inc();
+example.inc();
+console.log(example.number);
