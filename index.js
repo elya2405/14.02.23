@@ -64,11 +64,27 @@ elya.sayAge();
 let example = {
   number: 0,
   inc: function () {
-    this.number = this.number + 1;
+    this.number = this.number + 1; //добавляет одно
+  },
+  dcr: function () {
+    this.number = this.number - 1;
+  },
+  add: function (num) {
+    this.number = this.number + num; //функция кот увелич число намбер на опред число в методе
+  },
+  subtract: function (num) {
+    this.number = this.number - num;
+  },
+  print: function () {
+    console.log(this.number);
   },
 };
 
-console.log(example.number);
+//калькулятор
+example.print();
 example.inc();
 example.inc();
-console.log(example.number);
+example.print();
+example.add(5);
+example.subtract(4);
+example.print();
