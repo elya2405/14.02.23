@@ -38,3 +38,4 @@ let elya = {
 
 // view, edit, add
 console.log(elya.height);
+elya.age = 19;
