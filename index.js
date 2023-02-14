@@ -40,3 +40,6 @@ let elya = {
 console.log(elya.height);
 elya.age = 19;
 elya.favouriteColor = ["black", "white"];
+
+// delete
+delete elya.favouriteColor;
