@@ -17,3 +17,7 @@ for (let i = 0; i < ex1.length; i++) {
   result = result + ex1[i];
 }
 console.log(result);
+
+//тема: Объекты
+let example1 = {};
+let joldosh = { name: " joldosh", age: 22 };
