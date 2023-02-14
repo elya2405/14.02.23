@@ -24,6 +24,9 @@ let joldosh = {
   name: " joldosh",
   age: 22,
   isEmployed: false,
+  sayHello: function () {
+    console.log("hello");
+  },
 };
 
 //создать объект описывающий себя
@@ -43,3 +46,6 @@ elya.favouriteColor = ["black", "white"];
 
 // delete
 delete elya.favouriteColor;
+
+//функуция которые находится внутри объекта это метод
+joldosh.sayHello();
