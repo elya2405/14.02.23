@@ -35,3 +35,6 @@ let elya = {
   eyeLight: "browm",
   isEmployed: true,
 };
+
+// view, edit, add
+console.log(elya.height);
