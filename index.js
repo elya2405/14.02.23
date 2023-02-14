@@ -37,6 +37,12 @@ let elya = {
   height: 165,
   eyeLight: "browm",
   isEmployed: true,
+  greeting: function () {
+    console.log("hello my name is " + this.name);
+  },
+  sayAge: function () {
+    console.log("my age " + this.age);
+  },
 };
 
 // view, edit, add
@@ -48,4 +54,9 @@ elya.favouriteColor = ["black", "white"];
 delete elya.favouriteColor;
 
 //функуция которые находится внутри объекта это метод
-joldosh.sayHello();
+joldosh.sayHello(); //() обязатльно
+
+elya.greeting();
+elya.name = "eleonora";
+elya.greeting();
+elya.sayAge();
