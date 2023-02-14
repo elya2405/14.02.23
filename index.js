@@ -11,3 +11,9 @@ for (let i = 1; i <= 10; i++) {
 
 //массив из 10 элементов
 let ex1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(ex1);
+let result = 0;
+for (let i = 0; i < ex1.length; i++) {
+  result = result + ex1[i];
+}
+console.log(result);
