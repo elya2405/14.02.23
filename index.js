@@ -20,4 +20,18 @@ console.log(result);
 
 //тема: Объекты
 let example1 = {};
-let joldosh = { name: " joldosh", age: 22 };
+let joldosh = {
+  name: " joldosh",
+  age: 22,
+  isEmployed: false,
+};
+
+//создать объект описывающий себя
+let elya = {
+  name: "Elya",
+  age: 18,
+  weight: 50,
+  height: 165,
+  eyeLight: "browm",
+  isEmployed: true,
+};
